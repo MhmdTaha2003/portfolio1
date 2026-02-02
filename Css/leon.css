@@ -481,7 +481,6 @@ h2.text {
 
 .footer {
     background-color: var(--secondary-color);
-
     color: white;
     display: flex;
     justify-content: center;
