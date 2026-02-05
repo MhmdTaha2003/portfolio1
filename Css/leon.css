@@ -322,11 +322,15 @@ html{
     border-radius: 5px;
 }
 .portfolio .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05) translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+
 }
 .portfolio .card img {
     max-width : 100%;
     transition: .3s;
+    border-radius: 5px;
 }
 .portfolio .card .imagecard{
     overflow: hidden;
