@@ -144,6 +144,9 @@ html{
     display: none;
     z-index: 1;
 }
+/* .header .links:hover ul{
+    display: block;
+} */
 .header .links ul::before{
     content: "";
     position: absolute;
@@ -151,9 +154,6 @@ html{
     border-color:transparent transparent #eee transparent;
     top: -18px;
     right: 5px;
-}
-.header .links:hover ul{
-    display: block;
 }
 .header .links ul li a {
     display: block;
@@ -319,6 +319,7 @@ html{
 .portfolio .card{
     background-color: white;
     transition: .6s;
+    border-radius: 5px;
 }
 .portfolio .card:hover{
     transform: scale(1.1);
